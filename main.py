@@ -6,10 +6,10 @@ import os
 
 DEBUG = False
 
-TOKEN = "You can locate you token here"
+TOKEN = Config.BOT_TOKEN
 PATH = "/home/user/bot/"
 CHAR = '/'
-FILE_NAME = "out.pdf"
+FILE_NAME = Config.FILE_NAME
 NUM_FILE_NAME = "stats"
 MY_ID = 16399547
 MAX = 10000000
@@ -20,7 +20,7 @@ WELCOME_MESSAGE = "Download a .jpg to add a file to a queue\n" \
                   "1) Download files .jpg or .png \n" \
                   "2) Press \"convert\" command(or write it on your own) \n" \
                   "3) Get your pdf \n" \
-                  "For any questions(ads, etc.), @kokhnovich \n"
+                  "For any questions(ads, etc.), @ITSMEAI \n"
 
 
 # Delete all files from user-s dir
