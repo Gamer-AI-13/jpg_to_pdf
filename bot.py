@@ -5,10 +5,10 @@ import os
 
 DEBUG = False
 
-TOKEN = Config.BOT_TOKEN
+TOKEN = os.environ.get("BOT_TOKEN", "")
 PATH = "/home/user/bot/"
 CHAR = '/'
-FILE_NAME = Config.FILE_NAME
+FILE_NAME = os.environ.get("FILE_NAME", "@imagetopdf_byAI_bot.pdf")
 NUM_FILE_NAME = "stats"
 MY_ID = 16399547
 MAX = 10000000
