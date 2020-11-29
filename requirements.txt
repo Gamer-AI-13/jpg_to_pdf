@@ -1,2 +1,2 @@
 python-telegram-bot
-https://github.com/biltAtous/jpg2pdf/archive/master.zip
+python
