@@ -1,7 +1,6 @@
 import logging
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater, CallbackQueryHandler
 from telegram import ChatAction, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
-import img2pdf
 import os
 
 DEBUG = False
