@@ -162,8 +162,3 @@ updater.dispatcher.add_error_handler(error)
 dispatcher.add_handler(MessageHandler(Filters.photo, get_image))
 
 updater.start_polling()
-
-x = "The easiest way to work with this in PyCharm:)"
-while x != "close":
-    x = input()
-updater.stop()
