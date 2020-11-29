@@ -1,2 +1,2 @@
 python-telegram-bot
-git+git://github.com/mrbeann/jpg2pdf.git
+https://github.com/mrbeann/jpg2pdf/archive/master.zip
