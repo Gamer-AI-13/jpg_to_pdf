@@ -159,7 +159,6 @@ logger.setLevel(logging.DEBUG)
 # updater.dispatcher.add_handler(CallbackQueryHandler(callback_handler))
 dispatcher.add_handler(CommandHandler('start', start))
 dispatcher.add_handler(MessageHandler(Filters.text, text))
-updater.dispatcher.add_error_handler(error)
 dispatcher.add_handler(MessageHandler(Filters.photo, get_image))
 
 updater.start_polling()
