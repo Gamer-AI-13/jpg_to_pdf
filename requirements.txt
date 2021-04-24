@@ -3,4 +3,4 @@ img2pdf
 aiogram
 aiohttp
 telethon
-telegram
+pyTelegramBotAPI
