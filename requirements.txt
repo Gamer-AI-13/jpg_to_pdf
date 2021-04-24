@@ -4,4 +4,4 @@ aiogram
 aiohttp
 telethon
 pyTelegramBotAPI
-telegram
+
