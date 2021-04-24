@@ -1,4 +1,4 @@
 python-telegram-bot
 img2pdf
 telegram
-telegram-bot
+aiogram
