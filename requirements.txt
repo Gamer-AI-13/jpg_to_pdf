@@ -1,3 +1,6 @@
 python-telegram-bot
 img2pdf
 aiogram
+aiohttp
+telethon
+telegram
